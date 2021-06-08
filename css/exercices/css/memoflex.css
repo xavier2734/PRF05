@@ -1,0 +1,119 @@
+.h1-header {
+    color: white;
+    background-color: grey;
+    text-align: center;
+    height: 50px;
+    font-size: 1.8em;
+    padding: 18px 0px;
+}
+
+.ul-main-nav {
+    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    padding: 10px 0px 0px 10px;
+}
+
+.ul-main-nav button {
+    color: white;
+    background: grey;
+    border-color: grey;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    margin: 0 20px;
+    font-size: 1.8em;
+}
+
+
+/* Les colonnes du main */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-add-title {
+    display: flex;
+    justify-content: center;
+}
+
+.ul-main-nav button.add-term,
+.add-card {
+    color: white;
+    background: green;
+    border-color: green;
+    padding: 8px 8px 8px 8px;
+    border-radius: 5px;
+    justify-content: space-around;
+    font-size: 1.8em;
+}
+
+main section article {
+    min-width: 20%;
+    border: 1px solid grey;
+    margin: 50px;
+    padding: 3px 8px 0px 8px;
+    background: grey;
+    color: white;
+    border-radius: 10px;
+}
+
+h2 {
+    /*min-width: 50%;*/
+    border: 5px solid white;
+    margin: 0px;
+    background: white;
+    color: black;
+    font-size: 1.8em;
+    justify-content: flex-start;
+}
+
+.card {
+    border: 5px solid#6c757d;
+    background: #6c757d;
+    border-radius: 5px;
+    color: black;
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1.5em;
+    padding: 60px 60px 60px 60px;
+}
+
+article div button {
+    background: #ffc107;
+    border-color: #ffc107;
+    padding: 20px 20px 20px 20px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+article div {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.5rem;
+    color: white;
+}
+
+article div span {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: white;
+}
+
+.main-footer {
+    border-color: grey;
+    background-color: grey;
+    text-align: center;
+    height: 50px;
+    font-size: 1.8em;
+    padding: 18px 0px;
+}
+
+.a-footer {
+    color: white;
+}

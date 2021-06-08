@@ -1,0 +1,25 @@
+/*conteneur*/
+
+section {
+    border: 3px solid black;
+    display: flex;
+    height: 600px;
+    /*Définitionde l'axe principal*/
+    flex-direction: row;
+    /* Alignement sur l'axe principal*/
+    justify-content: space-around;
+    /*Alignement de l'axe secondaire*/
+    align-items: stretch;
+    /* Passage à la ligne*/
+    flex-wrap: wrap;
+}
+
+
+/* les contenus*/
+
+section article {
+    border: 3px solid orange;
+    flex-basis: 30%;
+    margin: 20px 0;
+    padding: 20px;
+}
